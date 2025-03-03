@@ -54,3 +54,6 @@ response = requests.get('https://www.dns-shop.ru/', params=params, cookies=cooki
 with open("result.html", "w") as file:
     file.write(response.text)
 
+def func(a,b):
+    a = a+b
+    return
